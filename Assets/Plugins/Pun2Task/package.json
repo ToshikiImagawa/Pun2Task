@@ -6,6 +6,7 @@
     "description": "Provides async/await support for PUN2 ",
     "license": "MIT",
     "dependencies": {
-        "com.cysharp.unitask": "2.0.37"
+        "com.cysharp.unitask": "2.0.37",
+        "com.comcreate-info.photon-unity-networking-2": "2.22.0"
     }
 }

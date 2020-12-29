@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.comcreate-info.photon-unity-networking-2": "2.22.0",
     "com.unity.collab-proxy": "1.2.16",
     "com.unity.ide.rider": "1.1.4",
     "com.unity.ide.vscode": "1.2.1",
@@ -41,6 +42,13 @@
     "com.cysharp.unitask": "2.0.36"
   },
   "scopedRegistries": [
+    {
+      "name": "COMCREATE Unity Package Manager Registry",
+      "url": "http://0.0.0.0:4873/",
+      "scopes": [
+        "com.comcreate-info"
+      ]
+    },
     {
       "name": "package.openupm.com",
       "url": "https://package.openupm.com",

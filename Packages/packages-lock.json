@@ -1,5 +1,41 @@
 {
   "dependencies": {
+    "com.comcreate-info.photon-chat": {
+      "version": "4.1.4",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.comcreate-info.photon-libs": "4.1.4"
+      },
+      "url": "http://0.0.0.0:4873"
+    },
+    "com.comcreate-info.photon-libs": {
+      "version": "4.1.4",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "http://0.0.0.0:4873"
+    },
+    "com.comcreate-info.photon-realtime": {
+      "version": "4.1.4",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.comcreate-info.photon-libs": "4.1.4"
+      },
+      "url": "http://0.0.0.0:4873"
+    },
+    "com.comcreate-info.photon-unity-networking-2": {
+      "version": "2.22.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.comcreate-info.photon-libs": "4.1.4",
+        "com.comcreate-info.photon-realtime": "4.1.4",
+        "com.comcreate-info.photon-chat": "4.1.4"
+      },
+      "url": "http://0.0.0.0:4873"
+    },
     "com.cysharp.unitask": {
       "version": "2.0.36",
       "depth": 0,
